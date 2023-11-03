@@ -22,7 +22,7 @@ class handler(BaseHTTPRequestHandler):
         global count
 
         # Read the content of text.txt
-        with open('code/text.txt', 'r', encoding='utf-8') as file:
+        with open('text.txt', 'r', encoding='utf-8') as file:
             content = file.read()
 
         count += 1  # Increment count
