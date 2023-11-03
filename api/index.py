@@ -43,8 +43,8 @@ def execute_mail_script():
 
 def main():
     try:
-        execute_python_script()
-        execute_mail_script()
+        # execute_python_script()
+        # execute_mail_script()
         print("main run")
     except Exception as e:
         print(e)
