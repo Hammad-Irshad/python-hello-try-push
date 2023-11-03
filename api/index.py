@@ -18,13 +18,18 @@ import threading
 count = 0
 
 class handler(BaseHTTPRequestHandler):
-
     def do_GET(self):
         global count
+
+        # Read the content of text.txt
+        with open('code/text.txt', 'r', encoding='utf-8') as file:
+            content = file.read()
+
+        count += 1  # Increment count
         self.send_response(200)
-        self.send_header('Content-type','text/plain')
+        self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(str(count).encode('utf-8'))
+        self.wfile.write(content.encode('utf-8'))
         return
 
 ###########################################################################################
@@ -152,7 +157,6 @@ def python_scrap():
             file.write(cleaned_match + '\n')
 
     #the udlink.py which is use to extract udemy.com main course link for last sand link ends here #######################################
-
 
 
 
