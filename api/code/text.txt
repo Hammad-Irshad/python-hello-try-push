@@ -1,0 +1,11 @@
+ /offer/information-security-expert-assessment-28964 
+ /offer/bim-revit-family-creation-expert-level-level-2-33901 
+ /offer/time-series-analysis-and-forecasting-using-r-33900 
+ /offer/linear-regression-with-spss-33899 
+ /offer/linear-regression-in-python-house-price-prediction-model-33898 
+ /offer/sales-forecasting-using-time-series-analysis-in-python-33897 
+ /offer/univariate-time-series-analytics-and-modeling-with-eviews-33896 
+ /offer/random-forest-algorithm-using-python-33895 
+ /offer/bayesian-statistics-bayesian-model-for-healthcare-testing-33894 
+ /offer/decision-trees-using-r-bank-loan-default-prediction-33893 
+ 
